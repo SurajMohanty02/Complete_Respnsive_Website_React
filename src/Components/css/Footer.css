@@ -1,0 +1,46 @@
+.footer {
+  background: #4b6cb7;
+  width: 100% !important;
+  color: #fff;
+  height: auto;
+}
+.about h4 {
+  font-weight: 600;
+  text-shadow: 2px 0px #111;
+  letter-spacing: 1px;
+}
+.about p {
+  line-height: 25px;
+}
+.newsletter p {
+  line-height: 25px;
+}
+.newsletter h4 {
+  font-weight: 600;
+  text-shadow: 2px 0px #111;
+  letter-spacing: 1px;
+}
+.wid {
+  width: 100% !important;
+}
+.links li {
+  margin-bottom: 10px;
+}
+.navlinks h4 {
+  font-weight: 600;
+  text-shadow: 2px 0px #111;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 992px) {
+  .navlinks {
+    width: 100% !important;
+    text-align: left;
+  }
+  .links {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,46 @@
+.service-div {
+  display: flex;
+  align-items: center;
+}
+.service-text > h1 {
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: rgb(58, 58, 58);
+}
+.service-text > p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.8rem;
+  color: rgb(114, 114, 114);
+}
+.service {
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgb(219, 218, 218);
+}
+.service-space {
+  padding: 0 50px;
+}
+.service-div {
+  padding: 0 30px;
+}
+.container {
+  width: 100%;
+}
+.extras > h4 {
+  font-size: 1.3rem;
+}
+.extras > p {
+  font-size: 0.9rem;
+}
+.extras {
+  padding: 20px 0;
+  transition: 0.3s;
+}
+.icons {
+  font-size: 50px;
+  color: #3053a3;
+}
+.contain {
+  padding: 0 40px;
+}

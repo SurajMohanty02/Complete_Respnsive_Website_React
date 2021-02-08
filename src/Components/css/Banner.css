@@ -1,0 +1,24 @@
+.banner {
+  width: 100%;
+  margin: 100px 0;
+  height: auto;
+}
+.extra > h4 {
+  font-size: 1.3rem;
+}
+.extra > p {
+  font-size: 0.9rem;
+}
+.extra {
+  padding: 50px;
+  transition: 0.3s;
+}
+.icons {
+  font-size: 50px;
+  color: #3053a3;
+}
+.extra:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  transform: translateY(-20px);
+  cursor: pointer;
+}

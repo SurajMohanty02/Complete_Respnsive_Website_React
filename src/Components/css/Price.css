@@ -1,0 +1,60 @@
+.price {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  position: relative;
+}
+.price::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: linear-gradient(160deg, #4b6cb7 55%, #fff 0);
+
+  z-index: -1;
+}
+.money {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+.card-header {
+  font-weight: 600;
+}
+.card-body li {
+  margin: 18px 0;
+  font-size: 15px;
+}
+.card-footer {
+  padding: 20px 0 !important;
+}
+.card-footer a {
+  border: 1px solid#50d1c0;
+  border-radius: 30px;
+  padding: 12px 35px;
+  text-align: center;
+  margin-right: 10px;
+  color: #50d1c0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.card-footer a:hover {
+  color: #50d1c0;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.cards {
+  transition: 0.3s;
+}
+.cards:first-child {
+  margin-bottom: 60px;
+}
+.cards:hover {
+  transform: translateY(-25px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.card-price {
+  transform: translateY(-15px);
+}
